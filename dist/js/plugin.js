@@ -10,27 +10,7 @@ slickCarousel.slick({
     slidesToScroll: 1,
     dots: false,
     arrows: false,
-    fade: true,
-    responsive: [{
-        breakpoint: 1024,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-        }
-    }, {
-        breakpoint: 639,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            vertical: false,
-            verticalSwiping: false
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    }]
+    fade: true
 });
 
 //mouse wheel
