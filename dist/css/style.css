@@ -1,0 +1,145 @@
+* {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Roboto", apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  max-width: 100vw;
+  line-height: 1; }
+
+.main {
+  height: 100vh; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+.slick-active {
+  outline: none !important; }
+
+.slick-current [data-item^="item"] .animate-img {
+  -webkit-transition: all .6s ease-in;
+  -o-transition: all .6s ease-in;
+  transition: all .6s ease-in; }
+
+.mCSB_inside > .mCSB_container {
+  margin-right: unset; }
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: rgba(49, 33, 33, 0.75); }
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 8px; }
+
+.stub {
+  height: 46.25rem;
+  background-color: lightgray; }
+
+.container {
+  padding: 0 5%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.main-slider {
+  background: url("../img/bg2.png") no-repeat center/cover;
+  height: 46.5rem; }
+  .main-slider.active {
+    height: 100vh; }
+
+.slide {
+  height: 46.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  outline: none; }
+
+.item-wraper, .text-wraper {
+  display: inherit;
+  height: 100%; }
+
+.item-wraper {
+  position: relative; }
+  .item-wraper img {
+    height: 100%; }
+  .item-wraper .animate-img {
+    position: absolute;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out; }
+
+[data-item="item2"] .animate-img {
+  -webkit-transform: scale(0.42) translateX(-12.5%) translateY(-35%);
+      -ms-transform: scale(0.42) translateX(-12.5%) translateY(-35%);
+          transform: scale(0.42) translateX(-12.5%) translateY(-35%); }
+
+[data-item="item3"] .animate-img {
+  -webkit-transform: scale(0.4) translateX(7%) translateY(19%);
+      -ms-transform: scale(0.4) translateX(7%) translateY(19%);
+          transform: scale(0.4) translateX(7%) translateY(19%); }
+
+[data-item="item4"] .animate-img {
+  -webkit-transform: scale(0.4) translateX(-15%) translateY(49%);
+      -ms-transform: scale(0.4) translateX(-15%) translateY(49%);
+          transform: scale(0.4) translateX(-15%) translateY(49%); }
+
+.slick-current [data-item="item2"] .animate-img {
+  -webkit-transform: scale(0.9) translateX(-14%) translateY(48%);
+      -ms-transform: scale(0.9) translateX(-14%) translateY(48%);
+          transform: scale(0.9) translateX(-14%) translateY(48%); }
+
+.slick-current [data-item="item3"] .animate-img {
+  -webkit-transform: scale(1.3) translateX(21%) translateY(5%);
+      -ms-transform: scale(1.3) translateX(21%) translateY(5%);
+          transform: scale(1.3) translateX(21%) translateY(5%); }
+
+.slick-current [data-item="item4"] .animate-img {
+  -webkit-transform: scale(1) translateX(-28%) translateY(7%);
+      -ms-transform: scale(1) translateX(-28%) translateY(7%);
+          transform: scale(1) translateX(-28%) translateY(7%); }
+
+.text-wraper {
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .text-wraper h1 {
+    font-size: 4rem;
+    color: #46D7B6; }
+  .text-wraper p {
+    font-size: 2.5rem;
+    color: #999999;
+    font-family: "Roboto", apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 100; }
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 13px; } }
